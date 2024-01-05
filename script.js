@@ -15,7 +15,6 @@ $(document).ready(function() {
     },
   });
 
-
   //sticky header
     $(window).scroll(function() {
       if ($(this).scrollTop() > 1) {
@@ -97,7 +96,30 @@ $(document).ready(function() {
           })
           .catch(error => console.error('Error!', error.message))
   })
-    
+   
+  $(document).ready(function() {
+    $(window).scroll(function() {
+        // Check if the skills section is in the viewport
+        var skillsSection = $('.skills-section');
+        if (isElementInViewport(skillsSection)) {
+            // Animate the progress bars
+            $('.progress').each(function() {
+                var completion = $(this).data('completion');
+                $(this).css('width', completion);
+            });
+        }
+    });
+});
+
+function isElementInViewport(el) {
+    var rect = el[0].getBoundingClientRect();
+    return (
+        rect.top >= 0 &&
+        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight)
+    );
+}
+
+
   });
   
   function updateActiveSection() {
