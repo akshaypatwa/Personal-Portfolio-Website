@@ -64,7 +64,7 @@ body{
 }
 
 .logo .fa-bolt {
-  color: #fed700;
+  color: #65dd4e;
   font-size: 19.5px;
   position: absolute; 
   top: 60%;
@@ -95,10 +95,10 @@ body{
   display: block;
 }
 .header ul li a.active{
-  color: #fed700;
+  color: #65dd4e;
 } 
 .header ul li a:hover{
-  color:#fed700;
+  color:#65dd4e;
 }
 .header .menu_icon{
   color:#fff;
@@ -147,7 +147,7 @@ profile-photo .img{
   font-size: 14px;
 }
 .profile-text h1{
-  color: #fed700;
+  color: #65dd4e;
   font-size: 3rem; 
 }
 .profile-text p{
@@ -160,7 +160,7 @@ profile-photo .img{
   transition: 0.5s;
 }
 .profile-text .social i:hover{
-  color:#fed700;
+  color:#65dd4e;
   transform: rotate(360deg);
 }
 
@@ -182,7 +182,7 @@ profile-photo .img{
   flex-basis: 60%;
 }
 .about-content h4{
-  color: #fed700;
+  color: #65dd4e;
   font-size: 40px;
   line-height: 70px;
   text-transform: capitalize;
@@ -231,7 +231,7 @@ profile-photo .img{
   box-shadow: 0 10px 10px -8px rgb(0 0 0 / 78%);
 }
 .btn.active{
-  border-color: #fed700;
+  border-color: #65dd4e;
 }
 
 
@@ -245,7 +245,7 @@ profile-photo .img{
 }
 
 .education-content .title{
-  color: #fed700;
+  color: #65dd4e;
 }
 .education-content .row .education,
 .education-content .row .internship
@@ -292,7 +292,7 @@ profile-photo .img{
   height: 100%;
   left: 7px;
   top: 0;
-  background-color: #fed700;  
+  background-color: #65dd4e;  
 }
 .education-content .row .circle-dot{
   position: absolute;
@@ -334,7 +334,7 @@ profile-photo .img{
   text-transform: uppercase;
   font-size: 40px;
   line-height: 40px;
-  color: #fed700;
+  color: #65dd4e;
   margin-bottom: 20px;
 }
 .project-title p{
@@ -358,7 +358,7 @@ profile-photo .img{
     transition: .3s;
 }
 .project i{
-  background-color: #fed700;
+  background-color: #65dd4e;
   width: 60px;
   height: 60px;
   color: #333;
@@ -375,7 +375,7 @@ profile-photo .img{
   text-align: justify;
 }
 .project:hover{
-  border-color: #fed700;
+  border-color: #65dd4e;
 }
 
 
@@ -389,7 +389,7 @@ profile-photo .img{
 .contact-content .contact-title h4{
   font-size: 40px;
   text-transform: capitalize;
-  color: #fed700;
+  color: #65dd4e;
   padding-bottom: 10px;
 }
 .contact-content .contact-title p{
@@ -408,7 +408,7 @@ profile-photo .img{
 
 .contact .submit{
   width: auto;
-  background-color: #fed700;
+  background-color: #65dd4e;
   padding: 10px 40px;
   font-weight:bold ;
   font-size: 18px;
