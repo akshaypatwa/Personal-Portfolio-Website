@@ -1,5 +1,21 @@
 $(document).ready(function() {
 
+
+  var typed = new Typed('#typed-text', {
+    strings: ['SERVICENOW', 'Lorem', 'Ipsum'],
+    typeSpeed: 80, // Adjust the typing speed as needed
+    backSpeed: 50, // Adjust the backspacing speed as needed
+    backDelay: 1000, // Delay before starting to backspace
+    startDelay: 500, // Delay before typing starts
+    loop: true, // Set to true for continuous looping
+    showCursor: false, // Set to false to hide the cursor
+    OnComplete: function(self)
+    {
+      self.cursor.style.display = 'inline-block';
+    },
+  });
+
+
   //sticky header
     $(window).scroll(function() {
       if ($(this).scrollTop() > 1) {
