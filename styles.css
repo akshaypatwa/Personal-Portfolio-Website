@@ -109,6 +109,14 @@ body{
   display: none;
 }
 
+.typed-cursor {
+  color: white;
+}
+
+.typed-text {
+  color: white;
+}
+
 /*---------------------------HomePage--------------------------*/
 
 .FirstElement{

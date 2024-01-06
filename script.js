@@ -2,18 +2,22 @@ $(document).ready(function() {
 
 
   var typed = new Typed('#typed-text', {
-    strings: ['SERVICENOW', 'Lorem', 'Ipsum'],
-    typeSpeed: 80, // Adjust the typing speed as needed
-    backSpeed: 50, // Adjust the backspacing speed as needed
+    strings: ['SERVICENOW ITSM', 'SERVICENOW CMDB', 'SERVICENOW INTEGRATIONS','SERVICENOW SecOps','SERVICENOW GRC','SERVICENOW PORTAL'],
+    typeSpeed: 30, // Adjust the typing speed as needed
+    backSpeed: 30, // Adjust the backspacing speed as needed
     backDelay: 1000, // Delay before starting to backspace
-    startDelay: 500, // Delay before typing starts
+    startDelay: 100, // Delay before typing starts
     loop: true, // Set to true for continuous looping
     showCursor: false, // Set to false to hide the cursor
+    cursorChar: '|', // You can customize the cursor character
+    cursorColor: 'white', // You can customize the cursor color
     OnComplete: function(self)
     {
       self.cursor.style.display = 'inline-block';
     },
   });
+
+  
 
   //sticky header
     $(window).scroll(function() {
