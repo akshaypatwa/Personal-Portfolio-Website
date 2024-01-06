@@ -28,14 +28,16 @@ body{
   margin:auto;
 }
 
-
-
-
       /*---------------------------Header---------------------------*/
 
 .header-area{
   padding:25px 0;
   transition: padding .3s;
+}
+
+.profile-text h1 {
+  font-family: 'Sacramento', cursive;
+  /* Add other styling properties as needed */
 }
 
 .header-area.sticky {
@@ -148,7 +150,7 @@ profile-photo .img{
 }
 .profile-text h1{
   color: #65dd4e;
-  font-size: 3rem; 
+  font-size: 5rem; 
 }
 .profile-text p{
   color:#e5e5e5;
