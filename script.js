@@ -2,10 +2,10 @@ $(document).ready(function() {
 
 
   var typed = new Typed('#typed-text', {
-    strings: ['SERVICENOW ITSM', 'SERVICENOW CMDB', 'SERVICENOW INTEGRATIONS','SERVICENOW SecOps','SERVICENOW GRC','SERVICENOW PORTAL'],
-    typeSpeed: 30, // Adjust the typing speed as needed
-    backSpeed: 30, // Adjust the backspacing speed as needed
-    backDelay: 1000, // Delay before starting to backspace
+    strings: ['SERVICENOW ITSM', 'SERVICENOW CMDB','SERVICENOW DISCOVERY','SERVICENOW INTEGRATIONS','SERVICENOW SecOps','SERVICENOW GRC','SERVICENOW SERVICE PORTAL'],
+    typeSpeed: 20, // Adjust the typing speed as needed
+    backSpeed: 20, // Adjust the backspacing speed as needed
+    backDelay: 500, // Delay before starting to backspace
     startDelay: 100, // Delay before typing starts
     loop: true, // Set to true for continuous looping
     showCursor: false, // Set to false to hide the cursor

@@ -110,12 +110,15 @@ body{
 }
 
 .typed-cursor {
+  display: inline-block; /* Make sure the cursor is inline */
   color: white;
 }
 
 .typed-text {
   color: white;
+  /* Add other styling properties as needed */
 }
+
 
 /*---------------------------HomePage--------------------------*/
 
@@ -262,7 +265,7 @@ profile-photo .img{
 
 .skills-section {
   padding: 80px 0;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .skills-section h1 {
