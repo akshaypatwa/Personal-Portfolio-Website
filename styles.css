@@ -76,7 +76,7 @@ body{
 }
 
 .signature {
-  width: 100px; 
+  width: 150px; 
   height:auto; 
   margin-right: 10px; 
 }
@@ -292,7 +292,7 @@ profile-photo .img{
 }
 
 .progress-bar {
-  height: 10px; /* Adjust the height to make the bars thinner */
+  height: 7px; /* Adjust the height to make the bars thinner */
   background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
   border-radius: 5px; /* Adjust the border-radius accordingly */
   overflow: hidden;
