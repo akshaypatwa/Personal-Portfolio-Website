@@ -66,7 +66,7 @@ body{
 }
 
 .logo .fa-bolt {
-  color: #65dd4e;
+  color: #5fbb4a;
   font-size: 19.5px;
   position: absolute; 
   top: 60%;
@@ -97,10 +97,10 @@ body{
   display: block;
 }
 .header ul li a.active{
-  color: #65dd4e;
+  color: #5fbb4a;
 } 
 .header ul li a:hover{
-  color:#65dd4e;
+  color:#5fbb4a;
 } 
 .header .menu_icon{
   color:#fff;
@@ -160,7 +160,7 @@ profile-photo .img{
   font-size: 14px;
 }
 .profile-text h1{
-  color: #65dd4e;
+  color: #5fbb4a;
   font-size: 5rem; 
 }
 .profile-text p{
@@ -173,7 +173,7 @@ profile-photo .img{
   transition: 0.5s;
 }
 .profile-text .social i:hover{
-  color:#65dd4e;
+  color:#5fbb4a;
   transform: rotate(360deg);
 }
 
@@ -195,7 +195,7 @@ profile-photo .img{
   flex-basis: 60%;
 }
 .about-content h4{
-  color: #65dd4e;
+  color: #5fbb4a;
   font-size: 40px;
   line-height: 70px;
   text-transform: capitalize;
@@ -248,7 +248,7 @@ profile-photo .img{
   box-shadow: 0 10px 10px -8px rgb(0 0 0 / 78%);
 }
 .btn.active{
-  border-color: #65dd4e;
+  border-color: #5fbb4a;
 }
 
 .btn:hover {
@@ -284,7 +284,7 @@ profile-photo .img{
 }
 
 .skill-name {
-  color: #65dd4e;
+  color: #5fbb4a;
   font-size: 18px;
   font-weight: 600;
   display: block;
@@ -302,7 +302,7 @@ profile-photo .img{
 .progress {
   height: 100%;
   width: 0;
-  background-color: #65dd4e;
+  background-color: #5fbb4a;
   border-radius: 5px; /* Adjust the border-radius accordingly */
   transition: width 1s ease-in-out;
 }
@@ -326,7 +326,7 @@ profile-photo .img{
 }
 
 .skill-name {
-  color: #65dd4e;
+  color: #5fbb4a;
   font-size: 18px;
   font-weight: 600;
   display: block;
@@ -343,7 +343,7 @@ profile-photo .img{
 .progress {
   height: 100%;
   width: 0;
-  background-color: #65dd4e;
+  background-color: #5fbb4a;
   border-radius: 10px;
   transition: width 1s ease-in-out;
 } */
@@ -360,7 +360,7 @@ profile-photo .img{
 }
 
 .education-content .title{
-  color: #65dd4e;
+  color: #5fbb4a;
 }
 .education-content .row .education,
 .education-content .row .internship
@@ -407,7 +407,7 @@ profile-photo .img{
   height: 100%;
   left: 7px;
   top: 0;
-  background-color: #65dd4e;  
+  background-color: #5fbb4a;  
 }
 .education-content .row .circle-dot{
   position: absolute;
@@ -449,7 +449,7 @@ profile-photo .img{
   text-transform: uppercase;
   font-size: 40px;
   line-height: 40px;
-  color: #65dd4e;
+  color: #5fbb4a;
   margin-bottom: 20px;
 }
 .project-title p{
@@ -473,7 +473,7 @@ profile-photo .img{
     transition: .3s;
 }
 .project i{
-  background-color: #65dd4e;
+  background-color: #5fbb4a;
   width: 60px;
   height: 60px;
   color: #333;
@@ -490,7 +490,7 @@ profile-photo .img{
   text-align: justify;
 }
 .project:hover{
-  border-color: #65dd4e;
+  border-color: #5fbb4a;
 }
 
 
@@ -504,7 +504,7 @@ profile-photo .img{
 .contact-content .contact-title h4{
   font-size: 40px;
   text-transform: capitalize;
-  color: #65dd4e;
+  color: #5fbb4a;
   padding-bottom: 10px;
 }
 .contact-content .contact-title p{
@@ -523,7 +523,7 @@ profile-photo .img{
 
 .contact .submit{
   width: auto;
-  background-color: #65dd4e;
+  background-color: #5fbb4a;
   padding: 10px 40px;
   font-weight:bold ;
   font-size: 18px;
