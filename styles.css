@@ -140,8 +140,25 @@ body{
   overflow: hidden;
   /* border: 15px solid #444444; */
   box-shadow: 1px 25px 165px rgba(83, 209, 58);
-  margin-left: 170px;
+  margin-left: 173px;
 }
+
+/* Adjust for tablet layout */
+@media only screen and (max-width: 999px) {
+  .FirstElement .profile-photo {
+    margin-left: auto;
+    margin-right: auto; /* Center the element on smaller screens */
+  }
+}
+
+/* Adjust for mobile layout */
+@media only screen and (max-width: 767px) {
+  .FirstElement .profile-photo {
+    margin-left: auto;
+    margin-right: auto; /* Center the element on mobile screens */
+  }
+}
+
 profile-photo .img{
   height: 100%;
   width: 100%;
@@ -161,7 +178,7 @@ profile-photo .img{
 }
 .profile-text h1{
   color: #5fbb4a;
-  font-size: 5rem; 
+  font-size: 4rem; 
 }
 .profile-text p{
   color:#e5e5e5;
@@ -182,7 +199,7 @@ profile-photo .img{
  /*---------------------------About---------------------------*/
 
 .about-area{
-  padding-top: 130px;
+  padding-top: 40px;
   background-color: #202020;
 }
 .about{
@@ -229,6 +246,7 @@ profile-photo .img{
 #typed-text {
   height: 50px; /* Adjust the height as needed */
   overflow: hidden; /* Hide overflowing text */
+  font-size:larger
 }
 
 /*---------------------------Button---------------------------*/
@@ -307,7 +325,12 @@ profile-photo .img{
   transition: width 1s ease-in-out;
 }
 
-
+.completion-tag {
+  color: white;
+  /* font-style: italic; */
+  font-size: 14px;
+  margin-left: 204px; /* Adjust the margin as needed */
+}
 
 /*.skills-section {
   padding: 80px 0;
@@ -348,14 +371,16 @@ profile-photo .img{
   transition: width 1s ease-in-out;
 } */
 
-
-
 /*---------------------------Education & Internship---------------------------*/
+
+.education-content {
+  margin-bottom:  20px;
+}
 
 .education-content .row{
   display: flex;
   border-radius: 5px;
-  height: 400px;
+  height: 1050px;
   margin-bottom: 250px;
 }
 
@@ -379,14 +404,22 @@ profile-photo .img{
   flex:0 0 100%;
   max-width: 100%;  
 }
-.education-content .row .timeline{
-  /* background-color:#e5e5e5; */
+.education-content .row .timeline {
   padding: 30px 15px;
   border: 1px solid #e5e5e5;
   border-radius: 10px;
-  width: 200%;
+  width: 100%; /* Set default width to 100% */
+
   position: relative;
 }
+
+/* Adjust width for desktop screens */
+@media only screen and (min-width: 768px) {
+  .education-content .row .timeline {
+    width: 200%;
+  }
+}
+
 .education-content .row .timeline-item{
   position:relative;
   padding-left: 37px;
@@ -441,7 +474,8 @@ profile-photo .img{
 
 /*---------------------------Projects---------------------------*/
 .project-content{
-  padding: 740px 0;
+  padding: 40px 0;
+  clear:both;
   /* color:#fff;  */
   
 }
