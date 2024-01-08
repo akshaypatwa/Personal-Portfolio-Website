@@ -17,7 +17,6 @@ $(document).ready(function() {
     },
   });
 
-  
 
   //sticky header
     $(window).scroll(function() {
@@ -125,6 +124,14 @@ function isElementInViewport(el) {
 
 
   });
+
+  function isElementInViewport(el) {
+    var rect = el[0].getBoundingClientRect();
+    return (
+        rect.top >= 0 &&
+        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight)
+    );
+}
   
   function updateActiveSection() {
     var scrollPosition = $(window).scrollTop();

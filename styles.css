@@ -384,7 +384,7 @@ profile-photo .img{
   padding: 30px 15px;
   border: 1px solid #e5e5e5;
   border-radius: 10px;
-  width: 100%;
+  width: 200%;
   position: relative;
 }
 .education-content .row .timeline-item{
@@ -419,7 +419,7 @@ profile-photo .img{
   background-color: #e5e5e5;
 }
 .education-content .row .timeline-title  {
-  font-weight: 700;
+  font-weight: 10;
   font-size: 18px;
   margin-bottom: 12px;
 }
@@ -434,12 +434,16 @@ profile-photo .img{
   text-align: justify;
 }
 
+.project-timeline{
+  color: #5fbb4a;
+}
 
 
 /*---------------------------Projects---------------------------*/
 .project-content{
-  padding: 90px 0;
+  padding: 740px 0;
   /* color:#fff;  */
+  
 }
 .project-title{
   margin-bottom: 60px;
