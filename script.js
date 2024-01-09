@@ -3,14 +3,14 @@ $(document).ready(function() {
 
   var typed = new Typed('#typed-text', {
     strings: ['SERVICENOW ITSM', 'SERVICENOW CMDB','SERVICENOW DISCOVERY','SERVICENOW INTEGRATIONS','SERVICENOW SecOps','SERVICENOW GRC','SERVICENOW SERVICE PORTAL'],
-    typeSpeed: 20, // Adjust the typing speed as needed
-    backSpeed: 20, // Adjust the backspacing speed as needed
-    backDelay: 500, // Delay before starting to backspace
-    startDelay: 100, // Delay before typing starts
-    loop: true, // Set to true for continuous looping
-    showCursor: false, // Set to false to hide the cursor
-    cursorChar: '|', // You can customize the cursor character
-    cursorColor: 'white', // You can customize the cursor color
+    typeSpeed: 20, 
+    backSpeed: 20, 
+    backDelay: 500, 
+    startDelay: 100, 
+    loop: true, 
+    showCursor: false,
+    cursorChar: '|', 
+    cursorColor: 'white', 
     OnComplete: function(self)
     {
       self.cursor.style.display = 'inline-block';
@@ -82,7 +82,7 @@ $(document).ready(function() {
     });
 
   //contact form to excel sheet
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbzUSaaX3XmlE5m9YLOHOBrRuCh2O7xPd1qlgpvXtnudDs5Xhp3jF-Fx/exec';
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzUSaaX3s4bew7xPd1qlgpvXtnudDs5Xhp3jF-Fx/exec';
   const form = document.forms['submitToGoogleSheet']
   const msg = document.getElementById("msg")
 
