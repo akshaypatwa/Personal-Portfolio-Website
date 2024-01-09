@@ -113,6 +113,20 @@ $(document).ready(function() {
             });
         }
     });
+
+    document.addEventListener("scroll", function () {
+      // Your existing scroll-related code here
+
+      // Add the following lines to hide the scroll-down indicator
+      const scrollDownIndicator = document.getElementById("scrollDownIndicator");
+      if (window.scrollY > 0) {
+          scrollDownIndicator.style.opacity = "0";
+          scrollDownIndicator.style.pointerEvents = "none";
+      } else {
+          scrollDownIndicator.style.opacity = "1";
+          scrollDownIndicator.style.pointerEvents = "initial";
+      }
+  });
 });
 
 function isElementInViewport(el) {
