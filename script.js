@@ -17,7 +17,6 @@ $(document).ready(function() {
     },
   });
 
-
   //sticky header
     $(window).scroll(function() {
       if ($(this).scrollTop() > 1) {
@@ -83,7 +82,7 @@ $(document).ready(function() {
     });
 
   //contact form to excel sheet
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbzUSaaX3X9bs4bew7xPd1q3jF-Fx/exec';
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzUSaaX3XmlE5m9YLOHOBrRuCh2Ohv49N9bs4bew7xPd1qlgpvXtnudDs5Xhp3jF-Fx/exec';
   const form = document.forms['submitToGoogleSheet']
   const msg = document.getElementById("msg")
 
@@ -158,6 +157,3 @@ function isElementInViewport(el) {
       }
     });
   }
-  
-
- 
