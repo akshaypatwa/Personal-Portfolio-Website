@@ -87,17 +87,19 @@ $(document).ready(function() {
   const msg = document.getElementById("msg")
 
   form.addEventListener('submit', e => {
-      e.preventDefault()
-      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-          .then(response => {
-              msg.innerHTML = "Message sent successfully"
-              setTimeout(function () {
-                  msg.innerHTML = ""
-              }, 5000)
-              form.reset()
-          })
-          .catch(error => console.error('Error!', error.message))
-  })
+    e.preventDefault();
+    fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then(response => {
+            if (response.ok) {
+                // Form submission successful, redirect to another page
+                window.location.href = 'https://akshaypatwa.github.io/Personal-Portfolio-Website/';
+            }
+        })
+        .catch(error => {
+            console.error('Error!', error.message);
+            msg.innerHTML = "Error submitting the form";
+        });
+});
    
   $(document).ready(function() {
     $(window).scroll(function() {
