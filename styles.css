@@ -22,6 +22,7 @@ body{
   font-size:16px;
   line-height:24px; 
   background-color:#202020;
+  overflow-x: hidden;
 }
 .container{
   width: 1170px;
@@ -207,6 +208,7 @@ profile-photo .img{
   justify-content: space-between;
   align-items: center;
   margin-bottom:50px;
+  overflow-x: hidden;
 }
 .about-content{
   flex-basis: 60%;
@@ -253,7 +255,7 @@ profile-photo .img{
 
 /* Scroll-down indicator styling */
 .scroll-down-indicator {
-  position: absolute;
+  position: sticky;
   bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
@@ -715,7 +717,7 @@ profile-photo .img{
     margin-bottom: 30px;
   }
   .about-skills{
-    width: 100%;
+    width: 90%;
     margin-top: 30px;
   }
   .education-content .row {
