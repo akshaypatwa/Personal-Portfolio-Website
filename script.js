@@ -1,6 +1,10 @@
 $(document).ready(function() {
 
 
+
+
+
+
   var typed = new Typed('#typed-text', {
     strings: ['SERVICENOW ITSM', 'SERVICENOW CMDB','SERVICENOW DISCOVERY','SERVICENOW INTEGRATIONS','SERVICENOW SecOps','SERVICENOW GRC','SERVICENOW SERVICE PORTAL'],
     typeSpeed: 20, 
@@ -99,6 +103,7 @@ $(document).ready(function() {
             console.error('Error!', error.message);
             msg.innerHTML = "Error submitting the form";
         });
+        
 });
    
   $(document).ready(function() {
@@ -127,6 +132,39 @@ $(document).ready(function() {
           scrollDownIndicator.style.pointerEvents = "initial";
       }
   });
+
+  $(document).ready(function () {
+    // Your existing code
+
+    // Show scroll-down indicator on page load
+    $('#scrollDownIndicator').fadeIn();
+
+    // Hide scroll-down indicator when scrolling
+    $(window).scroll(function () {
+        var scrollPos = $(this).scrollTop();
+        if (scrollPos > 100) {
+            $('#scrollDownIndicator').fadeOut();
+        } else {
+            $('#scrollDownIndicator').fadeIn();
+        }
+    });
+
+    // Center the scroll-down indicator on mobile
+    function centerScrollIndicator() {
+        var isMobile = window.innerWidth < 768; // Adjust the breakpoint if needed
+        if (isMobile) {
+            $('#scrollDownIndicator').addClass('center');
+        } else {
+            $('#scrollDownIndicator').removeClass('center');
+        }
+    }
+
+    // Call the function on page load and resize
+    centerScrollIndicator();
+    $(window).resize(centerScrollIndicator);
+});
+
+
 });
 
 function isElementInViewport(el) {
