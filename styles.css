@@ -593,6 +593,7 @@ profile-photo .img{
   padding: 100px 0;
   color: #fff;
   text-align: center;
+  background-color: transparent;
 }
 .contact-content .contact-title h4{
   font-size: 40px;
@@ -600,6 +601,7 @@ profile-photo .img{
   color: #5fbb4a;
   padding-bottom: 10px;
 }
+
 .contact-content .contact-title p{
   padding-bottom: 20px;
 }
@@ -740,4 +742,79 @@ profile-photo .img{
   }
 
 }
+
+/* Styles for the contact info section */
+.contact-info {
+  /* background-color: #303030; Adjust the background color as needed */
+  padding: 80px 0;
+}
+
+.contact-info-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.contact-item {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #fff; /* Adjust text color as needed */
+  transition: transform 0.3s ease-in-out
+}
+
+.contact-item i {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contact-item p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.contact-item a {
+  color: #5fbb4a; /* Adjust link color as needed */
+  text-decoration: none;
+}
+
+/* Add hover effect */
+.contact-item:hover {
+  transform: translateY(-5px); /* Move the icon upward on hover */
+}
+
+/* Add animation for spinning effect */
+/* .contact-item i:hover {
+  animation: spin 0.5s linear infinite, highlight 0.3s forwards;
+} */
+
+/* Keyframes for spinning animation */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Keyframes for highlighting animation */
+@keyframes highlight {
+  0% {
+    color: #fff; /* Start with white color */
+  }
+  50% {
+    color: #5fbb4a; /* Change to green color */
+  }
+  100% {
+    color: #fff; /* Back to white color */
+  }
+}
+
+/* Add animation for highlighting effect */
+.contact-item i:hover {
+  color: #5fbb4a; /* Change color to green on hover */
+   transition: color 0.3s;
+   box-shadow: #5fbb4a;  
+}
+
 
